@@ -1,0 +1,58 @@
+body {
+    background: #000000;
+    color: #ffffff;
+}
+
+.art-container {
+    margin: 50px auto;
+    width: 300px;
+    position: relative;
+}
+
+.art-picture {
+    background: #000000;
+    top: 36px;
+    bottom: 53px;
+    right: 84px;
+    left: 73px;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    position: absolute;
+}
+
+.art-quiz {
+    display: flex;    
+    justify-content: center;
+    /* width: 300px; */
+    align-items: center;
+    margin: 5px;
+
+    
+}
+
+.art-container:hover {
+    cursor: grab;
+}
+
+.art-picture:hover {
+    cursor: grabbing;
+}
+
+.art-quiz li {
+    color: #000000;
+    list-style: none;
+    cursor: grab;
+    text-align: center;
+    width: 25px;
+    padding: 5px;
+    margin: 10px;
+    background-color: red;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    transition: 2s ease-in-out;
+}
