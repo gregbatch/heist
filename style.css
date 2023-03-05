@@ -1,20 +1,39 @@
 body {
-    background: #000000;
+    background: #222629;
+    font-family: helvetica, sans-serif;
+}
+
+footer {
+    background: #474B4F;
+    font-family: helvetica, sans-serif;
+    color: #ffffff;
+    padding: 20px;
+}
+
+footer a {
+    color: #86C232;
+}
+
+h1, p {
     color: #ffffff;
 }
 
+h2 {
+    color: #6B6E70;
+}
+
 .art-container {
-    margin: 50px auto;
-    width: 300px;
+  /*  margin: 50px auto; */
+    width: 500px;
     position: relative;
 }
 
 .art-picture {
     background: #000000;
-    top: 36px;
-    bottom: 53px;
-    right: 84px;
-    left: 73px;
+    top: 58px;
+    /* bottom: 75px;*/
+    right: 138px;
+    left: 121px;
     overflow-x: hidden; 
     overflow-y: hidden; 
     position: absolute;
@@ -22,12 +41,10 @@ body {
 
 .art-quiz {
     display: flex;    
-    justify-content: center;
-    /* width: 300px; */
+    justify-content: left;
+    width: 500px;
     align-items: center;
     margin: 5px;
-
-    
 }
 
 .art-container:hover {
@@ -39,14 +56,14 @@ body {
 }
 
 .art-quiz li {
-    color: #000000;
     list-style: none;
     cursor: grab;
     text-align: center;
     width: 25px;
     padding: 5px;
     margin: 10px;
-    background-color: red;
+    color: #61892F;
+    background-color: #86C232;
 
 
 }

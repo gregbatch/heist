@@ -32,7 +32,7 @@
 
 
 const images = [
-    "https://upload.wikimedia.org/wikipedia/commons/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+    "https://media.nga.gov/iiif/a716d2d8-147d-4a90-b4cb-c7c98750dc95/full/full/0/default.jpg?attachment_filename=the_return_2014.79.12.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
     "https://collectionapi.metmuseum.org/api/collection/v1/iiif/490018/1009285/restricted",
     "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Scream_by_Edvard_Munch%2C_1893_-_Nasjonalgalleriet.png"
@@ -61,7 +61,7 @@ function imageSwitcher(event){
 
 //images
 
-// 1 - src=""
+// 1 - src="https://media.nga.gov/iiif/a716d2d8-147d-4a90-b4cb-c7c98750dc95/full/full/0/default.jpg?attachment_filename=the_return_2014.79.12.jpg"
 // 2 - src="https://upload.wikimedia.org/wikipedia/commons/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg"
 // 3 - src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/490018/1009285/restricted"
 // 4 - src="https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Scream_by_Edvard_Munch%2C_1893_-_Nasjonalgalleriet.png"
