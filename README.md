@@ -1,5 +1,10 @@
 # heist
-Many thanks, GA! This class was great. 
+
+Heist is an art history trivia game, designed to test your knowledge of historical art periods.
+
+Completed as part of the Front End Web Development Course at General Assembly, March 2023.
+
+Many thanks to GA! This class was great. 
 
 If I had more time, a few things I would continue to tinker on here: 
 - Add responsive elements and media queries
