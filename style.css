@@ -47,7 +47,6 @@ form {
     overflow-x: hidden; 
     overflow-y: hidden; 
     position: absolute;
-    
 }
 
 .art-quiz {
@@ -101,6 +100,17 @@ label {
     font-family: Helvetica, sans-serif;
     font-style: italic;
     color: #ffffff;
+}
+
+input[type=submit] {
+    background: #86C232;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 20px;
+
 }
 
 #radio1, #radio2, #radio3, #radio4, #radio5, #radio6, #radio7 {
