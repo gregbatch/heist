@@ -11,34 +11,75 @@
 
 <body>
     <nav>
-        <h1>heist.</h1>
-        <h2>test your knowledge of art history.</h2>
+        <h1>HEIST</h1>
+        <h2>Choose your mark.</h2>
     </nav>
     <main class="art">
+
         <section class="art-container">
 
-            <img class="art-frame" src="images/vintageframe.png">
+            <img class="art-frame" src="images/vintage frame cropped.png">
                 <div class="art-picture" id="screen">
-                    <img id="art-screen" src="">
+                    <img class="" id="art-screen" src="" innerText="">
                 </div>
-
         </section>
         <ul class="art-quiz">
-            <li class="quiz" id="romantic">1</li>
-            <li class="quiz" id="impressionist">2</li>
-            <li class="quiz" id="abstract">3</li>
-            <li class="quiz" id="expressionist">4</li>
+            <li class="quiz" id="romantic" value="Romantic">1</li>
+            <li class="quiz" id="impressionist" value="Impressionist">2</li>
+            <li class="quiz" id="abstract" value="Abstract">3</li>
+            <li class="quiz" id="expressionist" value="Expressionist">4</li>
         </ul>
     </main>
 
 </body>
+<form id="heist-form">
+    <fieldset>
+        <legend>Test your knowledge.</legend>
+        <label for="radio-container">What period of art history best describes this painting?</label>
+        <div class="radio-container">
+            <div class="radio">
+                <input type="radio" id="radio1" name="radio-group" value="Abstract" checked>
+                <label for="radio 1">Abstract</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio2" name="radio-group" value="Ancient">
+                <label for="radio 2">Ancient</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio3" name="radio-group" value="Classical">
+                <label for="radio 3">Classical</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio4" name="radio-group" value="Expressionist">
+                <label for="radio 4">Expressionist</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio5" name="radio-group" value="Impressionist">
+                <label for="radio 5">Impressionist</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio6" name="radio-group" value="Modern">
+                <label for="radio 6">Modern</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio7" name="radio-group" value="Romantic">
+                <label for="radio 7">Romantic</label>
+            </div>
+
+        </div>
+        <input type="submit" value="Make your getaway!">
+    </fieldset>
+</form>
+<aside id="fail-mode">
+    <div class="alert">Make better choices. You don't really want to be an art thief, now do you?</div>
+</aside>
 <footer>
-<h2>Attributions</h2>
-<a href='https://pngtree.com/so/Vintage'>Vintage png from pngtree.com/</a>
-<p>The Return (1837) by Thomas Cole, Public Domain, National Gallert of Art</p>
-<p>Impression, Sunrise (1872) by Claude Monet, Public domain, via Wikimedia Commons</p>
-<p>Still Life with a Bottle of Rum (1911) by Pablo Picasso, Metropolitan Museum of Art, Open Access Initiative</p>
-<p>The Scream (1893) by Edvard Munch, Public domain, via Wikimedia Commons</p>
+<h2 id="attributions">Attributions</h2>
+Vintage Frame from <a href='https://pngtree.com/so/Vintage'>pngtree.com</a>
+<p><span class="art-title">The Return</span> (1837) by Thomas Cole, Public Domain, National Gallery of Art</p>
+<p><span class="art-title">Impression, Sunrise</span> (1872) by Claude Monet, Public domain, via Wikimedia Commons</p>
+<p><span class="art-title">Still Life with a Bottle of Rum</span> (1911) by Pablo Picasso, Metropolitan Museum of Art, Open Access Initiative</p>
+<p><span class="art-title">The Scream</span> (1893) by Edvard Munch, Public domain, via Wikimedia Commons</p>
 
 </footer>
 </html>

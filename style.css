@@ -1,3 +1,7 @@
+nav {
+    margin: 35px;
+}
+
 body {
     background: #222629;
     font-family: helvetica, sans-serif;
@@ -22,21 +26,28 @@ h2 {
     color: #6B6E70;
 }
 
+form {
+    font-family: helvetica, sans-serif;
+    color: #ffffff;
+    padding: 20px;
+    line-height: 30px;
+}
+
 .art-container {
-  /*  margin: 50px auto; */
-    width: 500px;
+    width: 300px;
     position: relative;
 }
 
 .art-picture {
     background: #000000;
-    top: 58px;
-    /* bottom: 75px;*/
-    right: 138px;
-    left: 121px;
+    top: 38px;
+    bottom: 42px;
+    right: 37px;
+    left: 36px;
     overflow-x: hidden; 
     overflow-y: hidden; 
     position: absolute;
+    
 }
 
 .art-quiz {
@@ -64,8 +75,10 @@ h2 {
     margin: 10px;
     color: #61892F;
     background-color: #86C232;
+}
 
-
+li {
+    border-bottom: #61892F solid 2px;
 }
 
 img {
@@ -73,3 +86,65 @@ img {
     height: auto;
     transition: 2s ease-in-out;
 }
+
+#heist-form {
+    max-width: 260px;
+}
+
+legend {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: #6B6E70;
+}
+
+label {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    color: #ffffff;
+}
+
+#radio1, #radio2, #radio3, #radio4, #radio5, #radio6, #radio7 {
+    accent-color: #86C232;
+}
+
+.art-title {
+    font-style: italic;
+}
+
+#attributions {
+    margin-block-start: 0;
+}
+
+.alert {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2em;
+    background-color: red;
+    color: #ffffff;
+    border: #ffffff solid 5px;
+    padding: 40px;
+    width: 50%;
+    position: absolute;
+    margin: 100px;
+}
+
+#fail-mode {
+    background-image: url(images/Lasers2.1.png);
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .5s linear;
+    transform: translateX(100%);
+    overflow-y: clip;
+    position: fixed;
+    z-index: 1;
+}
+
+#fail-mode.toggle-alert {
+    transform: translateX(0%);
+    opacity: .9;
+}
+
